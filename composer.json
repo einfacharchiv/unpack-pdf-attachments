@@ -1,0 +1,29 @@
+{
+    "name": "einfacharchiv/unpack-pdf-attachments",
+    "description": "Save PDF attachments to your disk where you can use them",
+    "keywords": [
+        "einfachArchiv",
+        "php",
+        "pdf",
+        "attachments"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/einfachArchiv/unpack-pdf-attachments",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Philip Günther",
+            "email": "support@einfacharchiv.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "symfony/process": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "einfachArchiv\\UnpackPdfAttachments\\": "src/"
+        }
+    }
+}
