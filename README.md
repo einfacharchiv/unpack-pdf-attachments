@@ -4,6 +4,8 @@
 
 Authors sometimes supplement their documents with additional electronic resources. For example, a document that displays large tables of data might also provide the reader with a matching Excel spreadsheet to work with. PDF's file attachment feature is an open-ended mechanism for packing any electronic file into a PDF like this. These attachments can be associated with the overall document or with individual pages. You can unpack PDF attachments to your disk using Acrobat, Reader, or this unpack-pdf-attachments package. After unpacking an attachment, you can view and manipulate it independently from the PDF document.
 
+einfachArchiv is a German SaaS product to organize your documents in one place and meet all legal requirements. You'll find us [on our website](https://www.einfacharchiv.com).
+
 ## Requirements
 Behind the scenes this package leverages [PDFtk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit). You can verify if the binary is installed on your system by running this command:
 
