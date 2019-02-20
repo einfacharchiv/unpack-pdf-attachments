@@ -34,7 +34,7 @@ class Pdf
      */
     public function __construct(string $binaryPath = null)
     {
-        $this->binaryPath = $binaryPath ?? 'pdftk';
+        $this->binaryPath = $binaryPath ?? '/snap/bin/pdftk';
     }
 
     /**
